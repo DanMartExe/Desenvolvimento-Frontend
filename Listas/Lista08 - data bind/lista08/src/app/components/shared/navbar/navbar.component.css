@@ -1,11 +1,10 @@
 .menu {
   width: 100%;
   display: flex;
-  justify-content: center;
 }
 
 .menu a {
-  font-size: 40px;
+  font-size: 25px;
   background-color: crimson;
   color: #FFF;
   margin: 10px;

@@ -1,0 +1,17 @@
+mat-toolbar {
+  position: fixed;
+}
+
+.links {
+  margin: 10px;
+  color: #FFF;
+  transition: .5s ease-in-out;
+}
+
+.links:hover {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+
+

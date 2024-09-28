@@ -1,0 +1,15 @@
+<input type="text"
+ [(ngModel)]="cep_digitado" placeholder="CEP"
+ maxlength="8" minlength="8">
+
+<button (click)="consultarCep()">Consultar CEP</button>
+
+@if (endereco)
+{
+  <div class="cep">
+    <p>{{ endereco.cep }}</p>
+    <p>{{ endereco.estado }} - {{ endereco.uf }}</p>
+    <p>{{ endereco.bairro }}</p>
+    <p>{{ endereco.localidade }}</p>
+  </div>
+}

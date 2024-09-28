@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+.conteudo-home {
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo-home p {
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.conteudo-home p:hover{
+  width: 252px;
+  height: 152px
+}

@@ -1,0 +1,16 @@
+<div class="produtos">
+  @for (produto of produtos; track $index) {
+    <div class="produto">
+      <img [src]="produto.url_imagem">
+      <p>{{ produto.nome }}</p>
+      <p>{{ produto.descricao }}</p>
+      <p>{{ produto.preco }}</p>
+
+      <div class="buttons">
+        <button class="detalhes">Detalhes</button>
+        <button class="comprar">Comprar</button>
+        <button (click)="deletarProduto(produto.id)">Deletar</button>
+      </div>
+    </div>
+  }
+</div>

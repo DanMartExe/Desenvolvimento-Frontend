@@ -1,0 +1,57 @@
+.produtos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.produto {
+  border: 1px solid black;
+  width: 300px;
+  height: 350px;
+  max-width: 300px;
+  max-height: 350px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.produto p {
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.produto img {
+  width: 300px;
+  max-width: 300px;
+  object-fit: cover;
+  height: 250px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  width: 90px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.detalhes {
+  background: rgb(30, 105, 30);
+  color: aliceblue;
+}
+
+.comprar {
+  background: rgb(37, 123, 134);
+  color: aliceblue;
+}
+
+.buttons button:active {
+  opacity: 0.5;
+}

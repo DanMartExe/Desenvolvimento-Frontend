@@ -1,5 +1,10 @@
 <div class="adicionar-produto">
-  <input type="text" [(ngModel)]="nome" placeholder="Nome do produto">
+
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matImput type="text" [(ngModel)]="nome" placeholder="Nome do produto">
+  </mat-form-field>
+
   <input placeholder="descricao" [(ngModel)]="descricao">
   <input placeholder="preço" type="text" [(ngModel)]="preco">
   <input placeholder="imagem" type="text" [(ngModel)]="url_imagem">
